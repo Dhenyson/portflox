@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": ["prettier"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "js": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "import", "prettier"],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            { "singleQuote": true, "parser": "flow" }
+        ],
+        "space-before-function-paren": "off", // no-space, entre nome da função e ()
+        "react/prop-type": "off",
+        "quotes": ["error", "single"],
+        "jsx-quotes": ["error", "prefer-single"],
+        "semi": ["error", "never"], //sem ;
+        "semi-spacing": ["error", { "before": false, "after": true }], //sem espaço depois de ;
+        "react/jsx-filename-extension": [
+            "error",
+            { "extensions": [".js", ".jsx"] } //JSX só poder ser escritos nestes arq
+        ],
+        "global-require": "off", // usar arquivos globais sem precisar importar
+        "import/prefer-default-export": "off", // não ser obrigado usar ex..default
+        "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
+        // a regra de cima permite criar variáveis que não são usadas
+    }
+}

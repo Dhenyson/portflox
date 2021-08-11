@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/static/js/main.babd2869.chunk.js",
+    "main.js.map": "/static/js/main.babd2869.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d1b1c636.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d1b1c636.js.map",
+    "static/js/2.64e40026.chunk.js": "/static/js/2.64e40026.chunk.js",
+    "static/js/2.64e40026.chunk.js.map": "/static/js/2.64e40026.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.64e40026.chunk.js.LICENSE.txt": "/static/js/2.64e40026.chunk.js.LICENSE.txt",
+    "static/media/sem-bg-Logo-pagina-home-dhj.8d906a66.png": "/static/media/sem-bg-Logo-pagina-home-dhj.8d906a66.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1b1c636.js",
+    "static/js/2.64e40026.chunk.js",
+    "static/js/main.babd2869.chunk.js"
+  ]
+}

@@ -1,0 +1,9 @@
+root = true
+
+[*]
+indent_style = space # Define o tipo de identação space/tab
+indent_size = 4 # numero item definido como identação
+charset = utf-8
+end_of_line = lf #padrão de quebra de linha
+trim_trailing_whitespace = true #remove espaços em brancos no final da linha
+insert_final_newline = true #se o aqruivo vai terminar com nova linha
